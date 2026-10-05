@@ -1,0 +1,44 @@
+======================================================================
+  SURAKSHA WIM - COMPLETE GITHUB DEPLOYMENT GUIDE
+======================================================================
+
+OPTION 1: AUTOMATIC 1-CLICK SCRIPT (FASTEST)
+----------------------------------------------------------------------
+1. Create a new empty repository on GitHub:
+   - Go to: https://github.com/new
+   - Name: smart-overload-system
+   - Leave "Add a README" UNCHECKED!
+   - Click "Create repository".
+   - Copy the repository URL (e.g. https://github.com/YourUsername/smart-overload-system.git)
+
+2. In this folder, simply double-click:
+   deploy_to_github.bat
+
+3. Paste your repository URL and press Enter.
+   Done! All 4 modules will be pushed to GitHub automatically.
+
+
+OPTION 2: DRAG-AND-DROP IN BROWSER (NO COMMANDS)
+----------------------------------------------------------------------
+1. Go to: https://github.com/new
+2. Name: smart-overload-system
+3. Click "Create repository".
+4. On the next screen, click the link: "uploading an existing file".
+5. Drag and drop all files and folders from this folder into GitHub.
+6. Click "Commit changes".
+
+
+OPTION 3: MANUAL TERMINAL COMMANDS
+----------------------------------------------------------------------
+Open PowerShell or Command Prompt in this directory:
+  git init
+  git add .
+  git commit -m "feat: initial commit for 4-member smart overload system"
+  git branch -M main
+  git remote add origin https://github.com/YOUR_USERNAME/smart-overload-system.git
+  git push -u origin main
+
+======================================================================
+LOCAL OFFLINE RUN:
+Double-click 'double_click_to_run.bat' to start the full system locally!
+======================================================================
